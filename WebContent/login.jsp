@@ -8,7 +8,7 @@
 </head>
 <body>
 	
-	<form action="Login">
+	<form action="Login" method="post">
 	
 		Username: <input type="text" name="uname"/><br>
 		Password: <input type="password" name="pass"/><br>
