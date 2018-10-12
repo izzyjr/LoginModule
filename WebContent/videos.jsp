@@ -18,7 +18,8 @@
 	
 	%>
 	Hey ${username}! <br>
-	<a href="https://www.youtube.com/watch?v=xSE9Qk9wkig">Music</a>
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/jFP44JQmqCg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 </body>
 </html>
