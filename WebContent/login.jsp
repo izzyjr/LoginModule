@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Testing</title>
 </head>
 <body>
 	
@@ -12,7 +12,7 @@
 	
 		Username: <input type="text" name="uname"/><br>
 		Password: <input type="password" name="pass"/><br>
-		<input type="submit" value="login"/>
+		<input type="submit" value="Login"/>
 	
 	</form>
 	
