@@ -1,6 +1,8 @@
 package com.login;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,14 +22,20 @@ public class Login extends HttpServlet {
 			
 			HttpSession session = request.getSession();
 			session.setAttribute("username", uname);
-			response.sendRedirect("welcome.jsp");
+//			response.sendRedirect("welcome.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("welcome.jsp");
+			dispatcher.forward(request, response);
 			
 		} else {
 			
-			response.sendRedirect("login.jsp");
+//			response.sendRedirect("login.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+			dispatcher.forward(request, response);
 			
 		}
-		
+	
 	}
-
+		
 }
+
+
